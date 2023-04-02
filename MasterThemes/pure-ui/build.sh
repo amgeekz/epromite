@@ -21,7 +21,7 @@ if [ ! -f "artisan" ]; then
     zip -r PterodactylBackup-$(date +"%Y-%m-%d").zip public resources 2> /dev/null
 
     echo "Downloading the Theme you picked"
-    mkdir -p tempdown && cd tempdown && git clone https://github.com/Humpol/pt-themes .
+    mkdir -p tempdown && cd tempdown && git clone https://github.com/amgeekz/epromite .
     cp -r MasterThemes/pure-ui/public ..
     cp -r MasterThemes/pure-ui/resources ..
     cp -r MasterThemes/pure-ui/database ..
